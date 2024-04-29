@@ -1,6 +1,6 @@
 #! /bin/bash
 # By Aaron
-# https://github.com/AaronYES/aaPanel
+# https://github.com/zhongziso/aaPanel
 
 #彩色
 red(){
@@ -20,11 +20,11 @@ purple(){
 }
 
 function English(){
-wget https://raw.githubusercontent.com/AaronYES/aaPanel/main/script/aapanel-en.sh  -O aapanel-en.sh && chmod +x aapanel-en.sh && clear && ./aapanel-en.sh
+wget https://raw.githubusercontent.com/zhongziso/aaPanel/main/script/aapanel-en.sh  -O aapanel-en.sh && chmod +x aapanel-en.sh && clear && ./aapanel-en.sh
 }
 
 function Chinese(){
-wget https://ghproxy.com/https://raw.githubusercontent.com/AaronYES/aaPanel/main/script/aapanel-zh.sh  -O aapanel-zh.sh && chmod +x aapanel-zh.sh && clear && ./aapanel-zh.sh
+wget https://raw.githubusercontent.com/zhongziso/aaPanel/main/script/aapanel-zh.sh  -O aapanel-zh.sh && chmod +x aapanel-zh.sh && clear && ./aapanel-zh.sh
 }
 
 # 菜单
