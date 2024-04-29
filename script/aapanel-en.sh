@@ -47,7 +47,7 @@ rm /root/LinuxPanel_EN-6.8.23.zip /root/panel/ -rf
 
 ## 降级宝塔面板
 function downgrade-bt(){
-wget -O "/root/LinuxPanel-7.7.0.zip" "https://github.com/AaronYES/aaPanel/releases/download/1.3/LinuxPanel-7.7.0.zip"
+wget -O "/root/LinuxPanel-7.7.0.zip" "https://github.com/zhongziso/aaPanel/releases/download/1.3/LinuxPanel-7.7.0.zip"
 blue "Download complete, downgrading."
 unzip LinuxPanel-7.7.0.zip
 cd /root/panel
